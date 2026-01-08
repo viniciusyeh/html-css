@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family:'fontes/beatlesbold';
+    src:url('fontes/beatlesbold.ttf') format('truetype');
+}
+body{
+    background-image: radial-gradient(rgb(199, 199, 199) ,rgb(78, 78, 78));
+
+}
+
+#principal{
+    font-family: 'fontes/beatlesbold';
+    font-size: 4em;
+    text-align: center;
+    border-radius: 4px;
+    background-color: white;
+    border: 5px solid rgb(92, 92, 92);
+    box-shadow: 1px 5px 15px black;
+    padding-top: 1px;
+    
+    margin:clamp(100px,500px,150px);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+   
+}
+nav{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#subtitle{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    
+    
+    
+   
+    
+    
+   background-attachment: fixed;
+    
+    
+    margin-left: 38%;
+    background-color: rgb(255, 255, 255);
+    width:25%;
+    text-align: center;
+
+    
+    
+}
+h2{
+     /*margin-left: 10px;
+    padding-top: 10px;*/
+}
+main{
+    background-color:white;
+    border-radius: 6px;
+    margin: 40px;
+    
+}
+section{
+    text-align: center;
+}
